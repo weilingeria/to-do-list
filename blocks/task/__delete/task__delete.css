@@ -1,0 +1,14 @@
+.task__delete {
+  background-image: url(../../../images/deleteBin.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 17px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.task__delete:hover {
+  opacity: .6;
+  transition: .2s ease;
+}

@@ -1,0 +1,12 @@
+.task {
+  height: fit-content;
+  width: 200px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+  color: aliceblue;
+  opacity: .6;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 0;
+}

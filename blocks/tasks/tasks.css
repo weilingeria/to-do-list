@@ -1,0 +1,9 @@
+.tasks {
+  min-height: 32em;
+}
+
+@media screen and (max-width: 360px) {
+  .tasks {
+    min-height: 25em;
+  }
+}

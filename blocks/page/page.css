@@ -1,0 +1,9 @@
+.page {
+  background-color: #1A1A1D;
+  color: #C3073F;
+  min-width: 280px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', 'Arial', sans-serif;
+  text-rendering: optimizeLegibility;
+}

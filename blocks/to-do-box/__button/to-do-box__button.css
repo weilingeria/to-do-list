@@ -1,0 +1,27 @@
+.to-do-box__button {
+  background-color: #1A1A1D;
+  color: white;
+  border-color: #C3073F;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  padding: 0;
+  font-weight: 300;
+  font-size: 15px;
+  background-image: url(../../../images/plus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.to-do-box__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: .4s ease;
+}
+
+@media screen and (max-width: 360px) {
+  .to-do-box__button {
+    width: 200px;
+  }
+}

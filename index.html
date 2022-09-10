@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+
+  <body class="page">
+    <header></header>
+
+    <main class="content">
+      <div class="to-do-box">
+        <h1 class="to-do-box__title">ToDoList</h1>
+        <form name="form" class="to-do-box__form">
+          <input type="text" class="to-do-box__input" maxlength="30" placeholder="Добавим задачу?" required />
+          <button type="submit" class="to-do-box__button"></button>
+        </form>
+      </div>
+      <section class="tasks">
+        <h2 class="tasks__title">Мои задачи:</h2>
+        <ul class="tasks__list"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">&#169; 2022 weilingeria</p>
+    </footer>
+
+    <template id="tasks-template">
+      <li class="task">
+        <h3 class="task__title"></h3>
+        <buttom type="button" class="task__delete"></buttom>
+      </li>
+    </template>
+
+    <script src="/pages/index.js"></script>
+  </body>
+</html>
